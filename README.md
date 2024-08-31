@@ -12,7 +12,7 @@ clone the repository https://github.com/adwognura/NodeJS_app_docker.git
 - Run ```npm start``` to run the web application.
 
 ## Docker build and run
- docker build -t image_name:version .
+ docker build -t image_name:version . <br />
  docker run -p 3000:3000 -d image_name:version
  
  
